@@ -28,7 +28,10 @@
 .sidebar-option p{
     font-size: 12px;
 }
-
+.sidebar-option.active{
+    background-color: #fff0ed;
+    border-color: tomato;
+}
 @media(max-width:900px){
     .sidebar-option p{
         display: none;
